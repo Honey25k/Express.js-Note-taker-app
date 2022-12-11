@@ -1,14 +1,23 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Application called Note Taker that can be used to write and save notes. Built on Express.js back-end stack.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Honey",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.18.2",
+    "uniqid": "^5.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Honey25k/Express.js-Note-taker-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Honey25k/Express.js-Note-taker-app/issues"
+  },
+  "homepage": "https://github.com/Honey25k/Express.js-Note-taker-app#readme"
 }
